@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+    padding-top: 75px;
+    scroll-padding-top: 75px;
+    font-size: 1.1em;
+    color: black;
+}
+
+html {
+    scroll-padding-top: 75px;
+}
+
+/* Header Navbar*/
+h1 {
+    color: rgba(218, 73, 73, 0.863);
+    text-shadow: 2px 2px rgb(216, 232, 245);
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#header-nav {
+    background-color: rgb(243, 162, 176);
+    box-shadow: 2px 2px aliceblue;
+}
+
+#myitem {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    #myitem {
+        text-align: center;
+    }
+    
+    li.nav-item:nth-child(1), li.nav-item:nth-child(2) {
+        box-shadow: 0px 2px aliceblue;
+    }
+}
+
+#dmenu {
+    background-color: inherit;
+}
+
+a span {
+    font-size: 70%;
+}
+/*End of Header Navbar */
+
+/* Gallery Page */
+#h-g {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(216, 232, 245);
+}
+
+.category-tile { 
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 220px;
+    height: 240px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 1.2em;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+/*End of Gallery Page*/
+
+/*Styling in Index*/
+#indexcontainer {
+    text-shadow: 2px 2px rgb(216, 232, 245);
+}
+
+div.col-12 > p {
+    margin: 30px auto 5px auto;
+    overflow: auto;
+    border: 2px solid rgba(218, 73, 73, 0.863);
+    width: 70%;
+    background-color: rgb(243, 162, 176);
+    text-align: center;
+}
+
+#carouselimg {
+    margin: 30px auto 5px auto;
+    overflow: hidden;
+    border: 2px solid rgba(218, 73, 73, 0.863);
+    width: 350px;
+    height: 460px;
+    background-color: rgb(243, 162, 176);
+}
+
+#txtbox {
+    margin: 30px auto auto auto;
+    overflow-y: auto;
+    border: 2px solid rgba(218, 73, 73, 0.863);
+    width: 350px;
+    height: 460px;
+    background-color: rgb(243, 162, 176);
+    text-align: center;
+}
+
+div.col-12 span {
+    font-size: 1.3em;
+    color: rgba(218, 73, 73, 0.863);
+    text-shadow: 2px 2px rgb(216, 232, 245);
+}
+
+/*Sizing text box of the QUOTE OF THE DAY*/
+@media (max-width: 576px) {
+    p.pindex {
+        height: 350px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    p.pindex {
+        height: 280px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    p.pindex {
+        height: 235px;
+    }
+}
+
+@media (min-width: 1201px) {
+    p.pindex {
+        height: 150px;
+    }
+}
+
+#spanindex {
+    font-size: 1.2em;
+}
+/*End of Styling in Index*/
+
+/*Styling in Contact*/
+#contactcontainer {
+    margin-top: 75px; 
+}
+
+div.container > section > div > a {
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px rgb(216, 232, 245);
+}
+
+div.container > section > div > p.pcontact {
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px rgb(216, 232, 245);
+}
+
+p.pcontact span {
+    font-size: 0.7em;
+}
+
+div.container > section > div > a:hover, div.container > section > div > a:focus {
+    text-decoration: none;
+}
+
+#c-box {
+    border: 2px solid rgba(218, 73, 73, 0.863);
+    margin-bottom: 5px;
+}
+
+#c-h {
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px rgb(216, 232, 245);
+    text-align: center;
+    margin: 50px auto 50px auto;
+}
+
+div.container > a:hover, div.container > a:focus {
+    text-decoration: none;
+}
+
+.picture {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 310px;
+    height: 350px;
+    margin: 0 auto 15px;
+}
+/*End of Styling in Contact*/
+
+/*Styling in Story*/
+#storycontainer {
+    margin-top: 50px;
+}
+
+#s-h {
+    text-align: center;
+    font-size: 1.3em;
+    color: rgba(218, 73, 73, 0.863);
+    text-shadow: 2px 2px rgb(216, 232, 245);
+    margin: auto auto 10px auto;
+}
+
+.storypic {
+    position: relative;
+    border: 2px solid rgba(218, 73, 73, 0.863);
+    overflow: hidden;
+    width: 350px;
+    height: 450px;
+    background-color: inherit;
+    margin: auto auto 10px auto;
+}
+
+.storypic2 {
+    position: relative;
+    border: 2px solid rgba(218, 73, 73, 0.863);
+    overflow: hidden;
+    width: 300px;
+    height: 400x;
+    background-color: inherit;
+    margin: auto auto 10px auto;
+}
+
+.storypic3 {
+    position: relative;
+    border: 2px solid rgba(218, 73, 73, 0.863);
+    overflow: hidden;
+    width: 230px;
+    height: 320px;
+    background-color: inherit;
+    margin: auto auto 10px auto;
+}
+
+#s-p {
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    margin: auto auto 10px auto;
+    font-size: 1em;
+    color: black;
+    text-shadow: 2px 2px rgb(216, 232, 245);
+}
+/*End of Styling in Story*/
